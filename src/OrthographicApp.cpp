@@ -62,8 +62,6 @@ void OrthographicApp::onChar(const unsigned int codepoint)
 
 void OrthographicApp::onCursorPosition(const double xpos, const double ypos)
 {
-	using namespace std;
-	cout << "x=" << xpos << ", y=" << ypos << endl;
 }
 
 
