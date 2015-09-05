@@ -5,7 +5,8 @@
 uniform mat4 u_projectionMatrix;
 uniform mat4 u_viewMatrix;
 uniform mat4 u_modelMatrix;
-
+uniform float u_zoom;
+uniform vec2 u_center;
 
 // Stage inputs
 layout (location = 0) in vec3 i_vertex;

@@ -3,6 +3,7 @@
 
 #include "IApp.hpp"
 #include "DrawableManager.hpp"
+#include "MandelbrotDrawable.hpp"
 
 
 class OrthographicApp : public IApp
@@ -31,7 +32,10 @@ public:
     virtual void draw() override;
 
 protected:
+    glm::vec2 center_;
     DrawableManager drawables_;
+    MandelbrotDrawable *mandelbrot_;
+    float zoom_;
 };
 
 #endif // __ORTHOGRAPHIC_APP_HPP__

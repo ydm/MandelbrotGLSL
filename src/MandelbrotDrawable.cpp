@@ -5,11 +5,17 @@
 
 namespace
 {
+	const GLfloat width = 2.0f;
+	const GLfloat height = 1.0f;
+
+	const GLfloat w2 = width / 2.0f;
+	const GLfloat h2 = height / 2.0f;
+
 	const GLfloat points[] = {
-		-0.5f, -0.5f, 0.0f,
-		 0.5f, -0.5f, 0.0f,
-		-0.5f,  0.5f, 0.0f,
-		 0.5f,  0.5f, 0.0f
+		-w2, -h2, 0.0f,
+		 w2, -h2, 0.0f,
+		-w2,  h2, 0.0f,
+		 w2,  h2, 0.0f
 	};
 
 	const GLfloat colors[] = {
